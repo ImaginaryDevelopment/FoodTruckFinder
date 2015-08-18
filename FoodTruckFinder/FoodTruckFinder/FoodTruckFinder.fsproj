@@ -127,6 +127,7 @@
     <None Include="fonts\glyphicons-halflings-regular.ttf" />
     <None Include="fonts\glyphicons-halflings-regular.svg" />
     <None Include="fonts\glyphicons-halflings-regular.eot" />
+    <Compile Include="ViewModels.fs" />
     <Compile Include="Controllers\HomeController.fs" />
     <Compile Include="Controllers\ValuesController.fs" />
     <Compile Include="Controllers\TruckController.fs" />
@@ -143,7 +144,6 @@
     </Compile>
     <Content Include="packages.config" />
     <Content Include="readme.txt" />
-    <Compile Include="ViewModels.fs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Antlr3.Runtime">
