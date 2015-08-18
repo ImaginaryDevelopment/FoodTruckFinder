@@ -129,10 +129,12 @@
     <None Include="fonts\glyphicons-halflings-regular.eot" />
     <Compile Include="Controllers\HomeController.fs" />
     <Compile Include="Controllers\ValuesController.fs" />
+    <Compile Include="Controllers\TruckController.fs" />
     <Content Include="Views\Web.config" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Shared\Error.cshtml" />
+    <Content Include="Views\Truck\Index.cshtml" />
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Web.config" />
     <Content Include="Global.asax" />
@@ -141,6 +143,7 @@
     </Compile>
     <Content Include="packages.config" />
     <Content Include="readme.txt" />
+    <Compile Include="ViewModels.fs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Antlr3.Runtime">

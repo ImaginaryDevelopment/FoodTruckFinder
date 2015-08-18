@@ -1,0 +1,24 @@
+@model IEnumerable<FoodTruckFinder.ViewModels.Truck>
+@section scripts
+{
+    <script src="@Url.Content("https://maps.googleapis.com/maps/api/js")"></script>
+    <script src="@Url.Content("Scripts/mygooglemap.js")"></script>
+}
+<div class="jumbotron">
+    <table>
+        <thead>
+            <tr>
+                <th>@Html.LabelFor(m=>m.FirstOrDefault().Menu)</th>
+            </tr>
+        </thead>
+        <tbody>
+    @foreach(var t in Model)
+    {
+            <tr>
+                <td>@Html.DisplayFor(_ => t.Menu)</td>
+                <td>@Html.DisplayFor(_ => t.)</td>
+            </tr>
+    }
+        </tbody>
+    </table>
+</div>
