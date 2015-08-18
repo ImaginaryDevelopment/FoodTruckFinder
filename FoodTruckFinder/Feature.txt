@@ -1,7 +1,0 @@
-Business can request truck
-trucks can respond
-people can view truck schedules
-locate trucks within an area
-
-trucks can upload menus
-trucks can Edit menus
