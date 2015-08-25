@@ -20,5 +20,5 @@ module TruckMemoryRepo =
 type TruckController() =
     inherit Controller()
     member x.Index()= x.View(TruckMemoryRepo.trucks)
-
+    member x.Add() = x.View()
 
